@@ -132,6 +132,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1-getting_started\hello_window.cpp" />
+    <ClCompile Include="2-hello_triangle\hello_triangle.cpp" />
+    <ClCompile Include="2-hello_triangle\hello_triangle_exercise3.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="LearnOpenGL.cpp" />
   </ItemGroup>

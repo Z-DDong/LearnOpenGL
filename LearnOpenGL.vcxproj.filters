@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="1-getting_started">
+      <UniqueIdentifier>{03e66b24-5f2f-4bc5-885a-9348cb8cde5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2-hello_triangle">
+      <UniqueIdentifier>{952dae26-a471-4cb5-ae3e-ebb263cd88c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LearnOpenGL.cpp">
@@ -20,6 +26,15 @@
     </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1-getting_started\hello_window.cpp">
+      <Filter>1-getting_started</Filter>
+    </ClCompile>
+    <ClCompile Include="2-hello_triangle\hello_triangle.cpp">
+      <Filter>2-hello_triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="2-hello_triangle\hello_triangle_exercise3.cpp">
+      <Filter>2-hello_triangle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
